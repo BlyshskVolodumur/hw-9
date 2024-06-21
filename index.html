@@ -8,83 +8,87 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header>
-     
-          
-            <img src="foto/WebStudio(1).png" alt="фото">
-                <p>Студія</p>
-               <a href="домашня.робота2.html">Портфоліо</a>
-                <p>Контакти</p>
-                <p><a href="http://127.0.0.1:5500/info@devstudio.com">info@devstudio.com </a></p>
-                <p>+38 096 111 11 11</p>
-                
+    <header class="header">
+        <img src="foto/WebStudio(1).png" alt="фото" class="header__logo">
+        <p class="header__studio">Студія</p>
+        <a href="домашня.робота2.html" class="header__portfolio">Портфоліо</a>
+        <p class="header__contacts">Контакти</p>
+        <p class="header__email"><a href="mailto:info@devstudio.com">info@devstudio.com </a></p>
+        <p class="header__phone">+38 096 111 11 11</p>
     </header>
-   <h1>Ефективне рішення для
-     вашого бізнесу.</h1>
-     <div>
-     <input type="submit" value="Замовити послугу">
-     </div>
 
-<section>
-        
-        <div>
-            <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                 
+    <h1 class="main-heading">Ефективне рішення для вашого бізнесу.</h1>
 
-        </div>
+    <div class="order">
+        <input type="submit" value="Замовити послугу" class="order__button">
+    </div>
 
-    </section>
-
-    <section>
-        
-        <div>
-            <h4>ПУНКТУАЛЬНІСТЬ</h4>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                
+    <section class="details">
+        <div class="details__item">
+            <h4 class="details__item-heading">УВАГА ДО ДЕТАЛЕЙ</h4>
+            <p class="details__item-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </div>
     </section>
 
-    <section>
-        
-        <div>
-            <h4>ПЛАНУВАНЯ</h4>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-                
+    <section class="punctuality">
+        <div class="punctuality__item">
+            <h4 class="punctuality__item-heading">ПУНКТУАЛЬНІСТЬ</h4>
+            <p class="punctuality__item-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </div>
     </section>
-    <section>
-        
-        <div>
-            <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-         <h2>Чим ми займаємося</h2>
-        </div>
-    </section>
-        <img src="foto/img.png" alt="pupsik">
-        <img src="foto/box2.png" alt="фото">
-        <img src="foto/img(1).png" alt="фото">
-        <h2>Наша Команда</h2>
-        <img src="foto/img.jpg" alt="фото">
-        <h3>Ігор Дем'яненко</h3>
-        <p>Product Designer</p>
 
-        <img src="foto/img(1).jpg" alt="фото">
-        <h3>Ольга Рєпіна</h3>
-        <p>Frontend Developer</p>
-        <img src="foto/img(2).jpg" alt="фото">    
-        <h3>Микола Тарасов</h3>
-        <p>Marketing</p>
-        <img src="foto/img3).jpg" alt="фото">
-         <h3>Михайло Єрмаков</h3>
-         <p>UI Designer</p>
-         <footer>
-            <h4>WebStudio</h4>
-         <p>м. Київ, пр-т Лесі Українки, 26</p>
-            <p>info@devstudio.com</p>
-            <p>+38 096 111 11 11</p>
-        
-        </footer>
+    <section class="planning">
+        <div class="planning__item">
+            <h4 class="planning__item-heading">ПЛАНУВАНЯ</h4>
+            <p class="planning__item-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+        </div>
+    </section>
+
+    <section class="technology">
+        <div class="technology__item">
+            <h4 class="technology__item-heading">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+            <p class="technology__item-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h2 class="technology__subtitle">Чим ми займаємося</h2>
+        </div>
+    </section>
+
+    <img src="foto/img.png" alt="pupsik" class="img img--main">
+    <img src="foto/box2.png" alt="фото" class="img img--box2">
+    <img src="foto/img(1).png" alt="фото" class="img img--secondary">
+
+    <h2 class="team-heading">Наша Команда</h2>
+
+    <div class="team-member">
+        <img src="foto/img.jpg" alt="фото" class="team-member__photo">
+        <h3 class="team-member__name">Ігор Дем'яненко</h3>
+        <p class="team-member__role">Product Designer</p>
+    </div>
+
+    <div class="team-member">
+        <img src="foto/img(1).jpg" alt="фото" class="team-member__photo">
+        <h3 class="team-member__name">Ольга Рєпіна</h3>
+        <p class="team-member__role">Frontend Developer</p>
+    </div>
+
+    <div class="team-member">
+        <img src="foto/img(2).jpg" alt="фото" class="team-member__photo">
+        <h3 class="team-member__name">Микола Тарасов</h3>
+        <p class="team-member__role">Marketing</p>
+    </div>
+
+    <div class="team-member">
+        <img src="foto/img3).jpg" alt="фото" class="team-member__photo">
+        <h3 class="team-member__name">Михайло Єрмаков</h3>
+        <p class="team-member__role">UI Designer</p>
+    </div>
+
+    <footer class="footer">
+        <h4 class="footer__title">WebStudio</h4>
+        <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
+        <p class="footer__email">info@devstudio.com</p>
+        <p class="footer__phone">+38 096 111 11 11</p>
+    </footer>
 </body>
 </html>

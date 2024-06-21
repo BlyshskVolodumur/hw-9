@@ -1,8 +1,143 @@
 body {
+  font-family: 'Roboto', sans-serif;
+}
 
-   
-    
-   
-      font-family: "Roboto Condensed", sans-serif;
-    
-    }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.header__studio,
+.header__portfolio,
+.header__contacts,
+.header__email,
+.header__phone {
+  margin: 0 10px;
+  line-height: 1.5; 
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.order {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.order__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.details,
+.punctuality,
+.planning,
+.technology {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+}
+
+.details__item-heading,
+.punctuality__item-heading,
+.planning__item-heading,
+.technology__item-heading {
+  font-size: 1.25rem;
+  line-height: 1.3; 
+  margin: 10px 0;
+}
+
+.details__item-text,
+.punctuality__item-text,
+.planning__item-text,
+.technology__item-text {
+  font-size: 1rem;
+  line-height: 1.6; 
+  margin: 5px 0;
+}
+
+.technology__subtitle {
+  font-size: 1.5rem;
+  line-height: 1.3; 
+  margin: 20px 0;
+}
+
+.img {
+  display: block;
+  margin: 20px auto;
+}
+
+.img--main {
+  width: 100%;
+  max-width: 600px;
+}
+
+.img--box2,
+.img--secondary {
+  width: 100%;
+  max-width: 300px;
+}
+
+.team-heading {
+  font-size: 2rem;
+  line-height: 1.3; 
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.team-member__photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.team-member__name {
+  font-size: 1.25rem;
+  line-height: 1.4; 
+  margin: 5px 0;
+}
+
+.team-member__role {
+  font-size: 1rem;
+  line-height: 1.6; 
+  color: #777;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 10px 0;
+}
+
+.footer__address,
+.footer__email,
+.footer__phone {
+  font-size: 1rem;
+  line-height: 1.6; 
+  margin: 5px 0;
+}
